@@ -1,0 +1,123 @@
+.body_pag1 {
+background-color: rgb(17, 13, 13);
+}
+
+#moldura {
+width: 400px;
+height: 400px;
+background-color: rgb(27, 27, 27);
+position: absolute;
+left: 320px;
+bottom: 150px;
+border-radius: 15px;
+border: 3px solid transparent;
+border-color: blue;
+}
+
+#email {
+width: 275px;
+height: 45px;
+border: transparent;
+color: white;
+border-radius: 5px;
+left: 60px;
+bottom: 270px;
+position: absolute;
+background-color: rgba(59, 59, 59, 0.712);
+text-align:left;
+text-indent: 20px;
+outline-color: red;
+outline: none;
+cursor: pointer;
+size: 35px;
+}
+
+#email:focus{
+outline: 1px solid black;
+}
+
+#email::placeholder{
+color: white;
+}
+
+#senha {
+width: 275px;
+height: 45px;
+border: transparent;
+color: white;
+border-radius: 5px;
+left: 60px;
+bottom: 190px;
+position: absolute;
+background-color: rgba(59, 59, 59, 0.712) ;
+text-align:left;
+text-indent: 20px;
+outline-color: red;
+outline: none;
+cursor: pointer;
+}
+    
+#senha:focus{
+outline: 1px solid black;
+}
+    
+#senha::placeholder{
+color: white;
+}
+
+#criar{
+color: white;
+position: absolute;
+bottom: 60px;
+left: 105px;
+font-size: medium;
+font-family: Arial, Helvetica, sans-serif;
+user-select: none; /*impede o usuário de selecionar e copiar o texto de um elemento na página da web.*/
+}
+
+a{
+text-decoration: none;
+user-select: none; /*impede o usuário de selecionar e copiar o texto de um elemento na página da web.*/
+}
+
+/*Para trocar a cor do texto Criar Conta*/
+#links{
+color: rgb(55, 55, 245);
+}
+/*Para trocar a cor do texto Criar Conta*/
+
+
+#esq {
+position: absolute;
+bottom: 160px;
+left: 200px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(55, 55, 245);
+}
+
+#entrar{
+width: 300px;
+height: 50px;
+position: absolute;
+left: 50px;
+bottom: 90px;
+color: white;
+border: transparent;
+border-radius: 5px;
+background-color: rgb(60, 51, 194);
+font-size: medium;
+transition: all 1s;
+cursor: pointer;
+}
+
+#entrar:hover {
+background-color: rgb(47, 40, 145);
+transform: scale(1.03);
+}
+
+#logo {
+position: absolute;
+left: 92px;
+bottom: 340px;
+}
+

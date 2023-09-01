@@ -1,0 +1,177 @@
+.body_pag2{
+background-color: rgb(17, 13, 13);
+}
+
+#moldura2 {
+width: 400px;
+height: 550px;
+background-color: rgb(27, 27, 27);
+position: absolute;
+left: 320px;
+bottom: 80px;
+border-radius: 15px;
+border: 3px solid transparent;
+border-color: blue;
+}
+
+#nome{
+width: 275px;
+height: 45px;
+border: transparent;
+color: white;
+border-radius: 5px;
+left: 60px;
+bottom: 420px;
+position: absolute;
+background-color: rgba(59, 59, 59, 0.712);
+text-align:left;
+text-indent: 20px;
+outline-color: red;
+outline: none;
+cursor: pointer;   
+}
+    
+#nome:focus{
+outline: 1px solid black;
+}
+
+#nome::placeholder{
+color: white;
+}
+
+#email2{
+width: 275px;
+height: 45px;
+border: transparent;
+color: white;
+border-radius: 5px;
+left: 60px;
+bottom: 340px;
+position: absolute;
+background-color: rgba(59, 59, 59, 0.712);
+text-align:left;
+text-indent: 20px;
+outline-color: red;
+outline: none;
+cursor: pointer;   
+}
+        
+#email2:focus{
+outline: 1px solid black;
+}
+    
+#email2::placeholder{
+color: white;
+}
+
+#senha2{
+width: 275px;
+height: 45px;
+border: transparent;
+color: white;
+border-radius: 5px;
+left: 60px;
+bottom: 260px;
+position: absolute;
+background-color: rgba(59, 59, 59, 0.712);
+text-align:left;
+text-indent: 20px;
+outline-color: red;
+outline: none;
+cursor: pointer;   
+}
+        
+#senha2:focus{
+outline: 1px solid black;
+}
+    
+#senha2::placeholder{
+color: white;
+}
+
+#idade{
+width: 275px;
+height: 45px;
+border: transparent;
+color: white;
+border-radius: 5px;
+left: 60px;
+bottom: 180px;
+position: absolute;
+background-color: rgba(59, 59, 59, 0.712);
+text-align:left;
+text-indent: 20px;
+outline-color: red;
+outline: none;
+cursor: pointer;
+}
+        
+#idade:focus{
+outline: 1px solid black;
+}
+    
+#idade::placeholder{
+color: white;
+}
+
+#cadastrar{
+width: 300px;
+height: 50px;
+position: absolute;
+left: 50px;
+bottom: 95px;
+color: white;
+border: transparent;
+border-radius: 5px;
+background-color: rgb(60, 51, 194);
+transition: all 1s;
+font-size: large;
+cursor: pointer;
+}
+    
+#cadastrar:hover {
+background-color: rgb(47, 40, 145);
+transform: scale(1.03);
+}
+
+#checkbox {
+position: absolute;
+bottom: 50px;
+left: 25px;
+}
+
+/*cor do texto (label) da checkbox*/
+label{
+color: white;
+position: absolute;
+bottom: 50px;
+left: 50px;
+font-family: Arial, Helvetica, sans-serif;
+user-select: none; /*impede o usuário de selecionar e copiar o texto de um elemento na página da web.*/
+}
+
+#logo2{
+position: absolute;
+left: 95px;
+bottom: 485px;
+}
+
+#voltar2{
+bottom: 480px;
+left: 20px;
+position: absolute;
+color: rgb(17, 77, 241);
+font-size: 40px;
+background-color: transparent;
+border: transparent;
+transition: all 1s;
+cursor: pointer;
+padding: 0px 0px;
+border: none;
+content: none;
+}
+
+#voltar2:hover{
+color: rgb(11, 43, 129);
+transform: scale(1.03);
+}

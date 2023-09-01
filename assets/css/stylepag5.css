@@ -1,0 +1,232 @@
+.body_pag5{
+background-color: rgb(53, 51, 51);
+}
+
+hr {
+width: 250px;
+height: 200px;
+background-color: rgb(240, 238, 238);
+border-top-left-radius: 15px;/*para deixar a borda em cima redonda e em baixo plana*/
+border-top-right-radius: 15px;/*para deixar a borda em cima redonda e em baixo plana*/
+margin-top: -10px;/*para mover 10px para cima*/
+border:  transparent;
+}
+
+a { color: inherit;  /*para tirar a cor azul do link*/
+-webkit-user-drag: none; /*impede o usuário de selecionar e copiar o texto de um elemento na página da web.*/
+}
+
+
+
+#molduracorin2 {
+width: 250px;
+height: 400px;
+background-color: white;
+position: absolute;
+left: 35px;
+bottom: 195px;
+border-radius: 15px;
+cursor: pointer;
+user-select: none; /*impede o usuário de selecionar e copiar o texto de um elemento na página da web.*/
+transition: 3s; /*fazer com que tenha uma animacao no produto quando passar o mouse emcima*/
+}
+
+#molduracorin2:hover {
+transform: scale(1.04); /*fazer com que tenha uma animacao no produto quando passar o mouse emcima*/
+}
+
+
+#camisa{
+position: absolute;
+width: 175px;
+height: 175px;
+left: 35px;
+bottom: 215px;
+-webkit-user-drag: none; /*impede o usuário de selecionar e copiar um elemento na página da web.*/
+
+}
+
+#texto{
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+text-align: center;/*para deixar o texto no centro*/
+display: flex;/*para deixar o texto no centro*/
+justify-content: center;/*para deixar o texto no centro*/
+margin-top: 35px;
+}
+
+#desconto{
+text-decoration: line-through;
+font-size: small;
+bottom: -13px;
+left: 18px;
+position: relative;
+}
+
+#preço {
+top: 35px;
+left: -40px;
+position: relative;
+font-size: 10;
+}
+
+#pix{
+top: 55px;
+left: -102px;
+position: relative;
+font-size: small;
+color: rgb(65, 65, 65);
+}
+
+/*Camisa Flamengo*/
+hr {
+width: 250px;
+height: 200px;
+background-color: rgb(240, 238, 238);
+border-top-left-radius: 15px;/*para deixar a borda em cima redonda e em baixo plana*/
+border-top-right-radius: 15px;/*para deixar a borda em cima redonda e em baixo plana*/
+margin-top: -10px;/*para mover 10px para cima*/
+border:  transparent;
+}
+    
+a { color: inherit;  /*para tirar a cor azul do link*/
+-webkit-user-drag: none; /*impede o usuário de selecionar e copiar o texto de um elemento na página da web.*/
+}
+    
+    
+    
+#moldurafla2 {
+width: 250px;
+height: 400px;
+background-color: white;
+position: absolute;
+left: 365px;
+bottom: 195px;
+border-radius: 15px;
+cursor: pointer;
+user-select: none; /*impede o usuário de selecionar e copiar o texto de um elemento na página da web.*/
+transition: transform 3s /*fazer com que tenha uma animacao no produto quando passar o mouse emcima*/
+
+}
+    
+#moldurafla2:hover {
+transform: scale(1.04); /*fazer com que tenha uma animacao no produto quando passar o mouse emcima*/
+
+}  
+    
+#camisafla2{
+position: absolute;
+width: 175px;
+height: 175px;
+left: 35px;
+bottom: 215px;
+-webkit-user-drag: none; /*impede o usuário de selecionar e copiar um elemento na página da web.*/
+    
+}
+    
+#textofla2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+text-align: center;/*para deixar o texto no centro*/
+display: flex;/*para deixar o texto no centro*/
+justify-content: center;/*para deixar o texto no centro*/
+margin-top: 35px;
+}
+    
+#descontofla2{
+text-decoration: line-through;
+font-size: small;
+bottom: -13px;
+left: 18px;
+position: relative;
+}
+    
+#preçofla2{
+top: 35px;
+left: -40px;
+position: relative;
+font-size: 10;
+}
+    
+#pixfla2{
+top: 55px;
+left: -102px;
+position: relative;
+font-size: small;
+color: rgb(65, 65, 65);
+}
+
+/*Camiseta do São Paulo*/
+hr {
+width: 250px;
+height: 200px;
+background-color: rgb(240, 238, 238);
+border-top-left-radius: 15px;/*para deixar a borda em cima redonda e em baixo plana*/
+border-top-right-radius: 15px;/*para deixar a borda em cima redonda e em baixo plana*/
+margin-top: -10px;/*para mover 10px para cima*/
+border:  transparent;
+}
+    
+a { color: inherit;  /*para tirar a cor azul do link*/
+-webkit-user-drag: none; /*impede o usuário de selecionar e copiar o texto de um elemento na página da web.*/
+}
+     
+#moldurasp {
+width: 250px;
+height: 400px;
+background-color: white;
+position: absolute;
+left: 695px;
+bottom: 195px;
+border-radius: 15px;
+cursor: pointer;
+user-select: none; /*impede o usuário de selecionar e copiar o texto de um elemento na página da web.*/
+transition: 3s; /*fazer com que tenha uma animacao no produto quando passar o mouse emcima*/
+}
+    
+#moldurasp:hover {
+transform: scale(1.04); /*fazer com que tenha uma animacao no produto quando passar o mouse emcima*/
+}
+    
+    
+#camisasp{
+position: absolute;
+width: 175px;
+height: 175px;
+left: 35px;
+bottom: 215px;
+-webkit-user-drag: none; /*impede o usuário de selecionar e copiar um elemento na página da web.*/
+    
+}
+    
+#textosp{
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+text-align: center;/*para deixar o texto no centro*/
+display: flex;/*para deixar o texto no centro*/
+justify-content: center;/*para deixar o texto no centro*/
+margin-top: 35px;
+}
+    
+#descontosp{
+text-decoration: line-through;
+font-size: small;
+bottom: -13px;
+left: 18px;
+position: relative;
+}
+    
+#preçosp{
+top: 35px;
+left: -40px;
+position: relative;
+font-size: 10;
+}
+    
+#pixsp{
+top: 55px;
+left: -102px;
+position: relative;
+font-size: small;
+color: rgb(65, 65, 65);
+}

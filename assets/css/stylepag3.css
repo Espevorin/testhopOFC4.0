@@ -1,0 +1,50 @@
+.body_pag3 {
+background-color: rgb(17, 13, 13);
+}
+
+#moldura3 {
+width: 480px;
+height: 180px;
+background-color: rgb(27, 27, 27);
+position: absolute;
+left: 275px;
+bottom: 300px;
+border-radius: 15px;
+border: 3px solid transparent;
+border-color: blue;
+}
+
+#voltar {
+width: 200px;
+height: 50px;
+position: absolute;
+left: 140px;
+bottom: 18px;
+color: white;
+border: transparent;
+border-radius: 5px;
+background-color: rgb(60, 51, 194);
+transition: all 1s;
+font-size: large;
+cursor: pointer;
+}
+
+#voltar:hover {
+background-color: rgb(47, 40, 145);
+transform: scale(1.03);
+}
+
+#obg {
+position: absolute;
+left: 10px;
+bottom: 87px;
+color: white;
+font-family: Arial, Helvetica, sans-serifs;
+text-align: center;
+}
+
+#logo3{
+position: absolute;
+left: 140px;
+bottom: 125px;
+}

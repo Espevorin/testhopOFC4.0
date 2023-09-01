@@ -1,0 +1,126 @@
+.body_pag8{
+background-color: rgb(17, 13, 13);
+user-select: none;
+}
+
+#camisa2sp{
+position: absolute;
+width: 450px;
+height: 450px;
+left: 30px;
+bottom: 125px;
+-webkit-user-drag: none; /*impede o usuário de selecionar e copiar um elemento na página da web.*/    
+}
+
+#texto2spemcima{
+position: relative;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+bottom: -85px;
+left: 500px;
+font-size: x-large;
+user-select: none;
+}
+
+#texto2spembaixo{
+position: relative;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+bottom: -115px;
+left: 35px;
+font-size: x-large;
+user-select: none;
+}
+
+#desconto2sp{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 0, 0);
+text-decoration: line-through;
+font-size: large;
+top: 180px;
+left: -270px;
+position: relative;
+user-select: none;
+
+
+}
+    
+#preco2sp {
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+top: 215px;
+left: -360px;
+position: relative;
+font-size: xx-large;
+user-select: none;
+
+}
+    
+#pix2sp{
+top: 178px;
+left: 645px;
+position: relative;
+font-size: medium;
+color: white;
+user-select: none;
+
+}
+
+#quantidade2sp{
+position: relative; 
+width: 39px;
+height: 39px;
+left: 460px;
+bottom: -340px;
+}
+
+#Qtd{
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+bottom: -300px;
+left: 400px;
+color: white;
+}
+
+#tamanhoselect{
+display: none;
+}
+
+#tamanho{
+position: relative;
+left: 318px;
+bottom: -253px;
+width: 200px;
+height: 30px;
+background-color: white;
+border: transparent;
+border-radius: 2px;
+}
+
+#texttamanho{
+position: relative;
+color: white;
+bottom: -220px;
+left: 105px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnspcomprar{
+width: 258px;
+height: 50px;
+position: absolute;
+left: 550px;
+bottom: 135px;
+color: white;
+border: transparent;
+border-radius: 105px;
+background-color: rgb(255, 0, 0);
+font-size: medium;
+transition: all 1s;
+cursor: pointer;
+}
+    
+#btnspcomprar:hover {
+background-color: rgb(156, 8, 8);
+transform: scale(1.03);
+}
